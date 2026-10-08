@@ -1,0 +1,28 @@
+# Build output
+target/
+
+# IDE – IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE – VS Code
+.vscode/
+
+# IDE – Eclipse
+.settings/
+.project
+.classpath
+
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# Environment / secrets (never commit these)
+.env
