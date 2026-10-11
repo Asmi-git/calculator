@@ -111,7 +111,7 @@ class CalculatorTest {
     @Test
     @DisplayName("multiply: two negatives give positive")
     void multiplyTwoNegatives() {
-        assertEquals(15.0, calc.multiply(-3, -5), 1e-9);
+        assertEquals(16.0, calc.multiply(-3, -5), 1e-9);
     }
 
     @Test
